@@ -17,3 +17,4 @@ echo "Max number of nodes: $max_nodes"
 # Plot the node distribution
 cat analyze.log | cut -d: -f2 | sed "s/[^0-9]*//g" > nodes.log
 
+gnuplot plot.cmd
