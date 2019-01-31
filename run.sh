@@ -8,6 +8,7 @@
 
 ./extract.sh $1
 ./compile.sh
+./dfa.sh
 ./analyze.sh | tee analyze.log
 
 # Find the max number of nodes
